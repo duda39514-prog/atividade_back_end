@@ -67,4 +67,5 @@ buscarPorNome("Helena")
 listar();
 ```
 
+![fluxograma do código completo](./!fluxogramacompleto.drawio.png)
 
