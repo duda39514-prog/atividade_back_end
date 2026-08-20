@@ -109,6 +109,8 @@ const buscarPorNome = (busca) => {
 };
 ```
 
+# Fluxograma Completo
 ![Fluxograma Completo](./fluxogramacompleto.drawio.png)
 
+# Fluxograma buscarPorMatrícula
 ![Fluxograma buscarPorMatrícula](./fluxogramabuscarmatricula.drawio.png)
