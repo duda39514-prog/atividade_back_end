@@ -1,5 +1,7 @@
 # Atividade Back end
 
+Nesse repositório está os códigos completos e o fluxograma de cada código pedido!!
+
 ## Código Completo
 
 ```
@@ -66,6 +68,43 @@ buscarPorMatricula("12039");
 buscarPorNome("Helena")
 listar();
 ```
+# Código excluirPorMatrícula 
 
-![fluxograma do código completo](./!fluxogramacompleto.drawio.png)
+```
+const excluirPorMatricula = (matricula) => {
+    vendedores.forEach((vendedor, indice) => {
+        let matriculaTemp = vendedor.matricula.toLowerCase();
 
+        if(matriculaTemp == matricula.toLowerCase()) {
+            vendedores.splice(indice, 1);
+        }
+    });
+};
+```
+
+# Código buscarPorMatrícula
+
+```
+const buscarPorMatricula = (busca) => {
+    vendedores.forEach( (vendedor) => {
+        let matricula = vendedor.matricula.toLowerCase();
+
+        if(matricula == busca.toLowerCase()) {
+            console.log(vendedor);
+        }
+    } );
+};
+```
+# Código buscarPorNome
+
+```
+const buscarPorNome = (busca) => {
+    vendedores.forEach( (vendedor) => {
+        let nome = vendedor.nome.toLowerCase();
+
+        if(nome == busca.toLowerCase()) {
+            console.log(vendedor);
+        }
+    } );
+};
+```
