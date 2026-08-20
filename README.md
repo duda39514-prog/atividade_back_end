@@ -68,7 +68,7 @@ buscarPorMatricula("12039");
 buscarPorNome("Helena")
 listar();
 ```
-# Código excluirPorMatrícula 
+# Código `excluirPorMatrícula 
 
 ```
 const excluirPorMatricula = (matricula) => {
