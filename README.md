@@ -110,3 +110,5 @@ const buscarPorNome = (busca) => {
 ```
 
 ![Fluxograma Completo](./fluxogramacompleto.drawio.png)
+
+![Fluxograma buscarPorMatrícula](./fluxogramabuscarmatricula.drawio.png)
