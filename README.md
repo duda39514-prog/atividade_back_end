@@ -108,3 +108,5 @@ const buscarPorNome = (busca) => {
     } );
 };
 ```
+
+![Fluxograma Completo](./fluxogramacompleto.drawio.png)
