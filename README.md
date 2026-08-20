@@ -117,3 +117,6 @@ const buscarPorNome = (busca) => {
 
 # Fluxograma buscarPorNome
 ![Fluxograma buscarPorNome](./fluxogramanome.drawio.png)
+
+# Fluxograma ´excluirPorMatrícula
+![Fluxograma excluirPorMatrícula](./fluxogramaexcluir.drawio.png)
